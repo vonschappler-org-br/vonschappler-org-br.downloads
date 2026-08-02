@@ -82,5 +82,5 @@ body:
           required: true
         - label: I certify that I had tested all possibilities and suggestions provided by the developer before submitting this issue.
           required: true
-        - label: I am **AWARE** about everything mentioned in the[ **License**](./License.md) file for this project.
+        - label: I am **AWARE** about everything mentioned in the[ **License**](./blob/main/License.md) file for this project.
           required: true
