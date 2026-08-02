@@ -22,16 +22,18 @@ body:
       options:
         - Downloading a provided resource
         - Installing a provided resource
+        - A required dependency is missing in the resources provided
+        - Other (specify in the description with a detailed explanation)
   
   - type: textarea
     id: description
     validations:
       required: true
     attributes:
-      label: "Please provide a detailed description of what you need help with:"
+      label: "Provide a detailed description of what you need help with:"
       description: "A detailed description of what you need help with is important so can work on it."
       placeholder: |
-        Please add as much details as possible from what you need help with. Screenshots can be added here, if you judge necessary.
+        Please add as much details as possible from what you need help with. Screenshots can be added here (and   preferred to speed up the evaluation of the case)
   
   - type: markdown
     attributes:
@@ -78,9 +80,9 @@ body:
       options:
         - label: I understand that by submitting this, nothing will be answered or resolved immediately.
           required: true
-        - label: By submitting this issue, I understand that the developer will use the information provided here to help me with my request.
+        - label: By submitting this request for help, I understand that the developer will use the information provided here to help me with my request.
           required: true
-        - label: I certify that I had tested all possibilities and suggestions provided by the developer before submitting this issue.
+        - label: I certify that I had tested all possibilities and suggestions provided by the developer before submitting this request for help.
           required: true
-        - label: I am **AWARE** about everything mentioned in the[ **License**](./blob/main/License.md) file for this project.
+        - label: I am **AWARE** about everything mentioned in the[**License**](./blob/main/License.md) file for this project.
           required: true
