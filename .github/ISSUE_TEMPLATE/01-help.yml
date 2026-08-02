@@ -76,7 +76,9 @@ body:
     attributes:
       label: 'Agreement:' 
       options:
-        - label: I agree that by submitting this report the information listed here are suggestions that aim to improve the application.
+        - label: I understand that by submitting this, nothing will be answered or resolved immediately.
           required: true
-        - label: I understand that my request may take some time to be attended, and the proposal for improvements I suggested may not be accepted, hence not applied to the application.
+        - label: I had tested all possible outcomes provided either by the software or by the documentation before this request was created, considering the limitations described in the [**License**](./LICENSE.md) in this project.
+          required: true
+        - label: By submitting this issue, I understand that the developer will use the information provided here to help me with my request.
           required: true
