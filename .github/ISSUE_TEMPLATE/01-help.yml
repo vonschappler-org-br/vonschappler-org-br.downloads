@@ -80,5 +80,7 @@ body:
           required: true
         - label: By submitting this issue, I understand that the developer will use the information provided here to help me with my request.
           required: true
-        - label: I certify that had tested all possibilities and suggestions provided to try to solve any problems myself.
+        - label: I certify that I had tested all possibilities and suggestions provided by the developer before submitting this issue.
+          required: true
+        - label: I am **AWARE** about everything mentioned in the[ **License**](/License.md) file for this project.
           required: true
