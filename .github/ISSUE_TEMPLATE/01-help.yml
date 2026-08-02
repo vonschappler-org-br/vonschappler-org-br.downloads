@@ -78,7 +78,7 @@ body:
       options:
         - label: I understand that by submitting this, nothing will be answered or resolved immediately.
           required: true
-        - label: I had tested all possible outcomes provided either by the software or by the documentation before this request was created, considering the limitations described in the [**License**](./LICENSE.md) in this project.
+        - label: I had tested all possible outcomes provided either by the software or by the documentation before this request was created, considering the limitations described in the [**License**](/LICENSE.md) in this project.
           required: true
         - label: By submitting this issue, I understand that the developer will use the information provided here to help me with my request.
           required: true
