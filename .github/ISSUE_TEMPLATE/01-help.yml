@@ -1,6 +1,6 @@
-name: Help Improvements
-description: Is something not detailed enough or missing in the help section? Tell us what using this form!
-title: "[Help Improvements]: your suggestion name here"
+name: Help downloading / installing hosted files
+description: I tried to download / install a hosted file and it didn't work as expected. Tell us what using this form!
+title: "[Help]: filename / resource here (replace by the file you are trying to get help with)"
 assignees:
   - vonschappler
 labels:
@@ -17,21 +17,21 @@ body:
     validations:
       required: true
     attributes:
-      label: "My suggestion is related to:"
+      label: "I need help with:"
       description: Select the option that fits the type of suggestion.
       options:
-        - Something not added to the help
-        - Something added but that needs better explanation
+        - Downloading a provided resource
+        - Installing a provided resource
   
   - type: textarea
     id: description
     validations:
       required: true
     attributes:
-      label: "Please provide a detailed description of what should be added or improved:"
-      description: "A detailed description of the changes is important so can work those changes."
+      label: "Please provide a detailed description of what you need help with:"
+      description: "A detailed description of what you need help with is important so can work on it."
       placeholder: |
-        Please add as much details as possible from the changes to be changed in the help section that would bring up improvement to it. Screenshots can be added here, if you judge necessary.
+        Please add as much details as possible from what you need help with. Screenshots can be added here, if you judge necessary.
   
   - type: markdown
     attributes:
